@@ -8,7 +8,7 @@ class NewsService {
   NewsService(this.dio);
   Future<List<ArticleModel>> getTopHeadlines({required String category}) async {
     try {
-      final String apiKey = dotenv.env['NEWS_API_KEY']!;
+      const String apiKey = '0de99003e3364e6ea2d887f2ce8bdc88';//dotenv.env['NEWS_API_KEY']!;
       var response = await dio.get(
           'https://newsapi.org/v2/top-headlines?country=us&apiKey=$apiKey&category=$category');
       Map<String, dynamic> jsonData = response.data;

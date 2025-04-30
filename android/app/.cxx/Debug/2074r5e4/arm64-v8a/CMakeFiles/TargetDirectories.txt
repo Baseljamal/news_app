@@ -1,0 +1,2 @@
+D:/New folder (2)/news_app/android/app/.cxx/Debug/2074r5e4/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/New folder (2)/news_app/android/app/.cxx/Debug/2074r5e4/arm64-v8a/CMakeFiles/rebuild_cache.dir
